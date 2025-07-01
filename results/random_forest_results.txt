@@ -1,0 +1,75 @@
+================================================================================
+RANDOM FOREST - EVALUATION REPORT
+================================================================================
+Generated on: 2025-07-01 23:20:58
+Training time: 845.04 seconds
+Test samples: 10000
+
+OVERALL PERFORMANCE
+----------------------------------------
+Overall Accuracy: 0.9572 (9572/10000 correct predictions)
+Overall Error Rate: 0.0428
+
+CONFUSION MATRIX
+----------------------------------------
+Rows represent actual classes, columns represent predicted classes
+          0     1     2     3     4     5     6     7     8     9
+  0:    969     0     1     0     0     1     3     2     4     0
+  1:      0  1124     1     2     2     1     2     0     3     0
+  2:      8     1   986     7     4     0     4    10    10     2
+  3:      1     0    18   961     0     9     0     9     9     3
+  4:      2     1     1     1   941     3     9     1     4    19
+  5:      5     3     2    29     5   833     4     2     7     2
+  6:      8     2     6     1     4     5   927     0     5     0
+  7:      0     9    21     1     0     0     1   974     3    19
+  8:      4     2     8    12     6     9     5     3   914    11
+  9:      9     4     1    14    18     6     0     6     8   943
+
+CLASSIFICATION REPORT (similar to sklearn)
+--------------------------------------------------------------------------------
+Class Precision    Recall  F1-Score   Support
+--------------------------------------------------------------------------------
+0        0.9632    0.9888    0.9758       980
+1        0.9808    0.9903    0.9855      1135
+2        0.9435    0.9554    0.9494      1032
+3        0.9348    0.9515    0.9431      1010
+4        0.9602    0.9582    0.9592       982
+5        0.9608    0.9339    0.9471       892
+6        0.9707    0.9676    0.9692       958
+7        0.9672    0.9475    0.9572      1028
+8        0.9452    0.9384    0.9418       974
+9        0.9439    0.9346    0.9392      1009
+--------------------------------------------------------------------------------
+macro    0.9570    0.9566    0.9568     10000
+wtd      0.9572    0.9572    0.9572     10000
+--------------------------------------------------------------------------------
+
+ADDITIONAL STATISTICS
+----------------------------------------
+Per-class Accuracy:
+  Class 0: 0.9888 (969/980)
+  Class 1: 0.9903 (1124/1135)
+  Class 2: 0.9554 (986/1032)
+  Class 3: 0.9515 (961/1010)
+  Class 4: 0.9582 (941/982)
+  Class 5: 0.9339 (833/892)
+  Class 6: 0.9676 (927/958)
+  Class 7: 0.9475 (974/1028)
+  Class 8: 0.9384 (914/974)
+  Class 9: 0.9346 (943/1009)
+
+Top Misclassifications:
+  Class 5 misclassified as 3: 29 times
+  Class 7 misclassified as 2: 21 times
+  Class 4 misclassified as 9: 19 times
+  Class 7 misclassified as 9: 19 times
+  Class 3 misclassified as 2: 18 times
+  Class 9 misclassified as 4: 18 times
+  Class 9 misclassified as 3: 14 times
+  Class 8 misclassified as 3: 12 times
+  Class 8 misclassified as 9: 11 times
+  Class 2 misclassified as 7: 10 times
+
+================================================================================
+End of Random Forest evaluation report
+================================================================================

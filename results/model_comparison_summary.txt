@@ -1,0 +1,40 @@
+================================================================================
+MODEL COMPARISON SUMMARY
+================================================================================
+Generated on: 2025-07-01 23:23:21
+
+This summary provides a high-level comparison of all trained models.
+For detailed metrics, please refer to individual model reports:
+  - logistic_regression_results.txt
+  - random_forest_results.txt
+  - kmeans_results.txt
+
+MODEL CHARACTERISTICS:
+----------------------------------------
+Logistic Regression:
+  - Type: Supervised classification
+  - Algorithm: One-vs-Rest logistic regression
+  - Features: Linear decision boundaries
+  - Interpretability: High
+
+Random Forest:
+  - Type: Supervised classification
+  - Algorithm: Ensemble of decision trees
+  - Features: Non-linear decision boundaries
+  - Interpretability: Medium
+
+K-Means Clustering:
+  - Type: Unsupervised clustering
+  - Algorithm: Centroid-based clustering
+  - Features: Discovers hidden patterns
+  - Interpretability: Medium
+
+USAGE RECOMMENDATIONS:
+----------------------------------------
+- Use Logistic Regression for baseline performance and interpretability
+- Use Random Forest for better accuracy with non-linear patterns
+- Use K-Means for exploratory data analysis and pattern discovery
+
+================================================================================
+End of model comparison summary
+================================================================================
